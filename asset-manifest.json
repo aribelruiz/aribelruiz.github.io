@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bd7f032.css",
+    "main.js": "/static/js/main.26d62e75.js",
+    "static/js/787.e8a52378.chunk.js": "/static/js/787.e8a52378.chunk.js",
+    "static/media/BrainBeatsHome.png": "/static/media/BrainBeatsHome.b0ed9c277daf1168e1b5.png",
+    "static/media/aribelProfile2.jpg": "/static/media/aribelProfile2.acd0492c9b4a4503a8d8.jpg",
+    "static/media/aribelProfile.jpg": "/static/media/aribelProfile.2bae7d3fbe75c1b7847a.jpg",
+    "static/media/webPortfolio.png": "/static/media/webPortfolio.b0451381247762bd3ad4.png",
+    "static/media/contactManager.png": "/static/media/contactManager.ea0e854d675a5a88a458.png",
+    "static/media/plasticScm.png": "/static/media/plasticScm.3731f2544186f7395960.png",
+    "static/media/EpilapseHome.png": "/static/media/EpilapseHome.f0374c7bc77bb4d44885.png",
+    "static/media/LLDHome.png": "/static/media/LLDHome.9007e68a0cd71ba2b066.png",
+    "static/media/AribelResumeWeb.pdf": "/static/media/AribelResumeWeb.9aa4888a55b65e6f3ed3.pdf",
+    "static/media/aribelLogo.jpg": "/static/media/aribelLogo.a676a9790acec1549964.jpg",
+    "static/media/mtJava.png": "/static/media/mtJava.35c8b4c8cc4f46714fc4.png",
+    "static/media/react.png": "/static/media/react.e71f4c5b0c4306d65355.png",
+    "static/media/java.png": "/static/media/java.2be0bca1b95cfc0ce63e.png",
+    "static/media/cplus.png": "/static/media/cplus.5ec7020093361e423937.png",
+    "static/media/unity.png": "/static/media/unity.e9dd003a01a9cd02e257.png",
+    "static/media/css.png": "/static/media/css.e31e30fbd381c3f058df.png",
+    "static/media/html.png": "/static/media/html.5139eb66b02855a1c137.png",
+    "static/media/github.png": "/static/media/github.31b4f10e5e554228d89a.png",
+    "static/media/figma.png": "/static/media/figma.bde98f494ed786907fa3.png",
+    "static/media/javascript.png": "/static/media/javascript.7740925e655a37400621.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.f8926b7d6384e2785a04.png",
+    "static/media/vscode.png": "/static/media/vscode.881bdc86621a4699a32d.png",
+    "index.html": "/index.html",
+    "main.0bd7f032.css.map": "/static/css/main.0bd7f032.css.map",
+    "main.26d62e75.js.map": "/static/js/main.26d62e75.js.map",
+    "787.e8a52378.chunk.js.map": "/static/js/787.e8a52378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bd7f032.css",
+    "static/js/main.26d62e75.js"
+  ]
+}
