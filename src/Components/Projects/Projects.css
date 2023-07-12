@@ -1,0 +1,274 @@
+.projects {
+    background-color: rgb(183, 183, 183);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: fit-content;
+}
+
+.projects-div {
+    /* background-color: orange; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-header {
+    /* background-color: green; */
+    min-height: fit-content;
+    width: 100%;
+    display: flex;
+    padding: 5% 5% 1% 4%;
+}
+
+.project-list {
+    /* display: grid;
+    grid-template-columns:auto auto auto; */
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2%;
+    width: 100%;
+    padding: 10px;
+}
+
+.project-card-btn {
+    border-radius: 15px;
+}
+
+.project-card {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 360px;
+    height: 360px;
+    padding-bottom: 10px;
+    margin: 1%;
+}
+.project-card:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+.project-card .project-img {
+    border-radius: 0px;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-card-txt {
+    margin: 10px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.projects-footer {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content:right;
+    width: 100%;
+    padding: 20px;
+}
+
+.more-btn {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    border: none;
+    width: fit-content;
+    font-size: xx-large;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.more-btn h4 {
+    content: "";
+    width: fit-content;
+    padding-top: 3px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+}
+
+.more-btn:hover {
+    background-color: rgb(75, 75, 75);
+}
+.more-btn:hover h4 {
+    content: "";
+    display: block;
+    width: fit-content;
+    padding-top: 3px;
+    border-bottom: 2px solid #a1a1a1;
+}
+
+/* Project Modal CSS */
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+    width: fit-content;
+    min-width: 75vw;
+}
+
+.modal-container-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-img-div {
+    /* background-color: red; */
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.modal-txt {
+    /* background-color: green; */
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 10px 10px 20px;
+}
+
+.task-bullets {
+    list-style-type: circle;
+}
+
+.task-bullet {
+    display: flex;
+    column-gap: 5px;
+}
+
+.bullet-icon {
+    font-size: small;
+    padding: 5px;
+}
+
+
+.project-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    color: #046dc3;
+    column-gap: 8px;
+    width: fit-content;
+}
+.project-link:hover {
+    color: #025fac;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .projects-div {
+        width: 95%;
+    }
+
+    .project-card {
+        height: fit-content;
+        min-height: 300px;
+        width: 250px;
+    }
+
+    .project-card h2 {
+        font-size: x-large;
+    }
+
+    .project-card h5 {
+        font-size: medium;
+    }
+
+    .project-card .project-img {
+        height: 200px;
+    }
+
+    /* Project Modal CSS */
+    .modal-content {
+        min-width: 90vw;
+    }
+
+    .modal-txt {
+        /* background-color: red; */
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .projects {
+        padding: 5% ;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .projects-div {
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .project-card-btn {
+        width: 85%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card .project-img {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .projects-footer {
+        justify-content: center;
+    }
+
+    /* Project Modal CSS */
+    /* .modal-content {
+        min-width: 95vw;
+    } */
+
+    .modal-container-body {
+        flex-direction: column;
+    }
+
+    .modal-img-div {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .modal-txt {
+        padding: 0px;
+        width: 100%;
+    }
+}
+  
